@@ -11,7 +11,6 @@ set -ouex pipefail
 
 # Remove Waydroid
 dnf5 remove -y waydroid
-dnf5 copr disable aleasto/waydroid
 
 # Install 1Password
 rpm --import https://downloads.1password.com/linux/keys/1password.asc
